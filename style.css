@@ -1,0 +1,57 @@
+#map {
+  height: 620px;
+  width: 100%;
+}
+#search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 16rem;
+}
+#search-button {
+  background-color: #2892b6;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: 8rem;
+}
+#search-dropdown {
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 8rem;
+  opacity: 0.6;
+}
+#search-dropdown li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+}
+#search-dropdown li:hover {
+  background-color: #2892b6;
+}
+label {
+  color: white;
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+#start {
+  border-radius: 4px 0 0 4px;
+  width: 6rem;
+  height: 2.3rem;
+  border: 1px solid #2892b6;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  height: 6rem;
+  background-color: #32697b;
+}
